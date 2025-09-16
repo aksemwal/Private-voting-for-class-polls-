@@ -1,0 +1,15 @@
+[package]
+name = "class-polls"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x9b6ff266f9e7ba1bcc5204866ad80266249c296e78372dda36d012bd6911c48e"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
